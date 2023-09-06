@@ -2,12 +2,14 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        System.out.println(mojnoIdtiGulyati(11,15));
+        System.out.println(mojnoIdtiGulyati(11,15));
+        System.out.println(mojnoIdtiGulyati(11,15));
+        System.out.println(mojnoIdtiGulyati(11,15));
+        System.out.println(mojnoIdtiGulyati(11,15));
 
-        System.out.println(mojnoIdtiGulyati(11,15));
-        System.out.println(mojnoIdtiGulyati(11,15));
-        System.out.println(mojnoIdtiGulyati(11,15));
-        System.out.println(mojnoIdtiGulyati(11,15));
-        System.out.println(mojnoIdtiGulyati(11,15));
+
+        System.out.println("hello word");
     }
 
     public static String mojnoIdtiGulyati(int age, int temperature) {
@@ -21,4 +23,6 @@ public class Main {
             return"Оставайтесь дома ";
         }
     }
+
+
 }
